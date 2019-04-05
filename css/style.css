@@ -591,3 +591,132 @@
     font-size: 12px;
     color: #272727;
 }
+
+/*CLIENTS*/
+
+.clients {
+    display: flex;
+    flex-direction: column;
+}
+
+/*CLIENTS__HEADER*/
+
+.clients__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    height: 138px;
+    background: #fefefe;
+}
+
+.clients__separator-left {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.clients__separator--main {
+    height: 3px;
+    width: 72px;
+    background: #656464;
+}
+
+.clients__separator--sub {
+    margin-top: 1px;
+    width: 233px;
+    height: 1px;
+    background: #6f6e6e;
+}
+
+.clients__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 101px 0 46px;
+    font-family: "Sansation Regular", sans-serif;
+    font-size: 42px;
+    color: #656464;
+    text-transform: uppercase;
+}
+
+.clients__separator-right {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+/*CLIENTS__CONTENT*/
+
+.clients__content {
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+    background: #fbfbfb;
+}
+
+.clients__content--wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    height: 302px;
+    background: #ffffff;
+}
+
+.clients__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+
+.adobe-logo {
+    width: 167px;
+    height: 37px;
+    margin: 0 auto;
+}
+
+.hcl-logo {
+    width: 154px;
+    height: 26px;
+    margin: 0 auto;
+}
+
+.infosys-logo {
+    width: 180px;
+    height: 42px;
+    margin: 0 auto;
+}
+
+.invision-logo {
+    width: 183px;
+    height: 46px;
+    margin: 0 auto;
+}
+
+.cisco-logo {
+    width: 144px;
+    height: 62px;
+    margin: 0 auto;
+}
+
+.behance-logo {
+    width: 96px;
+    height: 49px;
+    margin: 0 auto;
+}
+
+.canva-logo {
+    width: 108px;
+    height: 102px;
+    margin: 0 auto;
+}
+
+.instagram-logo {
+    width: 76px;
+    height: 82px;
+    margin: 0 auto;
+}
+
+
