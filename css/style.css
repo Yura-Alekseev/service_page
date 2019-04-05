@@ -3,6 +3,7 @@
 @import "../fonts/Sansation_Bold.css";
 @import "../fonts/MyriadPro-Regular.css";
 @import "../fonts/NEOTERIC Bold.css";
+@import "../fonts/MyriadPro-Semibold.css";
 
 /*HEADER*/
 
@@ -719,4 +720,94 @@
     margin: 0 auto;
 }
 
+/*QUERIES*/
 
+.queries {
+    display: flex;
+    flex-direction: column;
+    height: 173px;
+    background: #097e89;
+}
+
+.queries__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 905px;
+    margin: 0 auto;
+}
+
+.queries__info {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 30px;
+}
+
+.queries__title {
+    font-family: "Sansation Regular", sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.queries__subtitle {
+    margin-top: 25px;
+    font-family: "Sansation Regular", sans-serif;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: left;
+    color: #aad2d6;
+}
+
+/*QUERIES__GER-CALL*/
+
+.queries__get-call {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 63px 0 0;
+}
+
+.queries__get-call--text {
+    background: transparent;
+    border: 1px solid #84bfc4;
+    border-right: 1px solid #60acb3;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    height: 42px;
+    padding-left: 22px;
+    color: #aad2d6;
+}
+
+.queries__get-call--number {
+    background: transparent;
+    border: 1px solid #84bfc4;
+    border-left: 1px transparent;
+    border-right: 1px transparent;
+    height: 42px;
+    padding-left: 22px;
+    color: #aad2d6;
+}
+
+.queries__get-call--text::placeholder,
+.queries__get-call--number::placeholder {
+    font-family: "Sansation Regular", sans-serif;
+    font-size: 10px;
+    color: #aad2d6;
+}
+
+.queries__get-call--btn {
+    height: 46px;
+    width: 99px;
+    border: transparent;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #ffffff;
+    font-family: "MyriadPro Semibold", sans-serif;
+    font-size: 12px;
+    color: #097e89;
+}
+
+.queries__get-call--btn:hover {
+    cursor: pointer;
+}
