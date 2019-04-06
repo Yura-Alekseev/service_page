@@ -1,0 +1,363 @@
+/*HEADER*/
+
+@media only screen and (max-width: 959px) {
+    .header {
+        height: 424px;
+    }
+
+    .header__logo {
+        margin: auto 20px;
+        font-size: 25px;
+    }
+
+    .header__navigation {
+        width: 65%;
+        font-size: 16px;
+    }
+
+    .header__icons {
+        width: 15%;
+    }
+
+    .header__sliders {
+        margin: 150px 0;
+    }
+
+    .header__sliders-content--border-bottom {
+        margin: -168px auto 0;
+    }
+}
+
+/*ABOUT-US*/
+
+@media only screen and (max-width: 959px) {
+    .about-us__wrapper {
+        height: 370px;
+    }
+
+    .about-us__title {
+        margin-bottom: 7px;
+        font-size: 25px;
+    }
+
+    .about-us__separator {
+        margin-bottom: 13px;
+    }
+
+    .about-us__main,
+    .about-us__sub {
+        width: 97%;
+        margin: 7px 0;
+        font-size: 12px;
+    }
+
+    .about-us__btn {
+        margin: 20px 0;
+        width: 141px;
+        font-size: 14px;
+    }
+}
+
+/*OUR-SERVICES*/
+
+@media only screen and (max-width: 959px) {
+    .our-services__header {
+        height: 108px;
+    }
+
+    .our-services__separator-left {
+        margin-top: 65px;
+    }
+
+    .our-services__separator--main {
+        width: 56px;
+    }
+
+    .our-services__separator--sub {
+        width: 160px;
+    }
+
+    .our-services__title {
+        font-size: 33px;
+    }
+
+    .our-services__separator-right {
+        margin-top: 65px;
+    }
+
+    .our-services__content-item {
+        height: 450px;
+    }
+
+    .our-services__content-item--logo {
+        width: 100px;
+        margin: 0 auto 40px;
+    }
+
+    .our-services__content-item--title {
+        font-size: 18px;
+    }
+
+    .our-services__content-item--subtitle {
+        max-width: 250px;
+        font-size: 12px;
+    }
+
+    .our-services__content-item--btn {
+        font-size: 15px;
+        width: 122px;
+    }
+}
+
+/*FEEDBACK*/
+
+@media only screen and (max-width: 959px) {
+    .feedback__header {
+        height: 108px;
+    }
+
+    .feedback__separator-left {
+        margin-top: 65px;
+    }
+
+    .feedback__separator--main {
+        width: 56px;
+    }
+
+    .feedback__separator--sub {
+        width: 160px;
+    }
+
+    .feedback__title {
+        margin: 0 37px;
+        font-size: 33px;
+    }
+
+    .feedback__separator-right {
+        margin-top: 65px;
+    }
+
+    .feedback__sliders--wrapper {
+        width: 200px;
+    }
+
+    .feedback__sliders {
+        margin-left: 5%;
+    }
+
+    .feedback__sliders--title {
+        width: 200px;
+        font-size: 16px;
+    }
+
+    .feedback__sliders--carousel {
+        width: 170px;
+        margin: 22px auto 0;
+    }
+
+    .feedback__photos {
+        justify-content: space-around;
+        width: 64%;
+    }
+
+    .feedback__photo-second-man {
+        display: none;
+    }
+
+    .feedback__photo--content {
+        font-size: 11px;
+    }
+}
+
+/*CLIENTS*/
+
+@media only screen and (max-width: 959px) {
+    .clients__header {
+        height: 108px;
+    }
+
+    .clients__separator-left {
+        margin-top: 65px;
+    }
+
+    .clients__separator--main {
+        width: 56px;
+    }
+
+    .clients__separator--sub {
+        width: 160px;
+    }
+
+    .clients__title {
+        margin: 0 76px 0 36px;
+        font-size: 33px;
+    }
+
+    .clients__separator-right {
+        margin-top: 65px;
+    }
+
+    .clients__content {
+        display: flex;
+        flex-direction: column;
+        height: 330px;
+        background: #fbfbfb;
+    }
+
+    .clients__content--wrapper {
+        margin: 16px auto 0;
+        height: 250px;
+        background: #ffffff;
+    }
+
+    .adobe-logo {
+        width: 137px;
+        height: 35px;
+        margin: 0 auto;
+    }
+
+    .hcl-logo {
+        width: 124px;
+        height: 25px;
+        margin: 0 auto;
+    }
+
+    .infosys-logo {
+        width: 140px;
+        height: 40px;
+        margin: 0 auto;
+    }
+
+    .invision-logo {
+        width: 143px;
+        height: 38px;
+        margin: 0 auto;
+    }
+
+    .cisco-logo {
+        width: 120px;
+        height: 57px;
+        margin: 0 auto;
+    }
+
+    .behance-logo {
+        width: 76px;
+        height: 44px;
+        margin: 0 auto;
+    }
+
+    .canva-logo {
+        width: 88px;
+        height: 80px;
+        margin: 0 auto;
+    }
+
+    .instagram-logo {
+        width: 58px;
+        height: 64px;
+        margin: 0 auto;
+    }
+}
+
+/*QUERIES*/
+
+@media only screen and (max-width: 959px) {
+    .queries {
+        height: 143px;
+    }
+
+    .queries__wrapper {
+        max-width: 680px;
+        margin: 0 auto;
+    }
+
+    .queries__title {
+        font-size: 19px;
+    }
+
+    .queries__subtitle {
+        margin-top: 12px;
+        font-size: 9px;
+        line-height: 20px;
+    }
+
+    .queries__get-call {
+        margin: 50px 0 0;
+    }
+
+    .queries__get-call--text {
+        width: 130px;
+        height: 34px;
+        padding-left: 12px;
+    }
+
+    .queries__get-call--number {
+        width: 130px;
+        height: 34px;
+        padding-left: 12px;
+    }
+
+    .queries__get-call--text::placeholder,
+    .queries__get-call--number::placeholder {
+        font-size: 9px;
+    }
+
+    .queries__get-call--btn {
+        width: 80px;
+        height: 38px;
+        padding-top: 4px;
+        font-size: 10px;
+    }
+}
+
+/*FOOTER*/
+
+@media only screen and (max-width: 959px) {
+    .footer {
+        height: 170px;
+    }
+
+    .footer__wrapper {
+        width: 680px;
+        margin: 20px auto 0;
+    }
+
+    .footer__main {
+        width: 300px;
+    }
+
+    .footer__title {
+        font-size: 16px;
+    }
+
+    .footer__item {
+        margin: 8px 0;
+        font-size: 10px;
+    }
+
+    .footer__sub {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 230px;
+    }
+
+    .footer__subscribe--text{
+        width: 107px;
+        height: 34px;
+        margin-left: 30px;
+        padding-left: 11px;
+    }
+
+    .footer__subscribe--text::placeholder {
+        font-size: 11px;
+    }
+
+    .footer__subscribe--btn {
+        height: 36px;
+        width: 99px;
+        font-size: 11px;
+    }
+
+
+}
