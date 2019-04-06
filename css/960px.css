@@ -1,0 +1,29 @@
+/*HEADER*/
+
+@media only screen and (max-width: 999px) {
+    .header {
+        height: 530px;
+    }
+}
+
+/*FEEDBACK*/
+
+@media only screen and (max-width: 999px) {
+    .feedback__content--wrapper {
+        width: 940px;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .feedback__sliders {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 26%;
+        margin-left: 4%;
+    }
+
+    .feedback__photos {
+        width: 68%;
+    }
+}
