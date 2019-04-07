@@ -23,8 +23,8 @@
         margin: 150px 0;
     }
 
-    .header__sliders-content--border-bottom {
-        margin: -168px auto 0;
+    .header__sliders-content-border-bottom {
+        margin: -159px auto 0;
     }
 }
 
@@ -53,7 +53,8 @@
 
     .about-us__btn {
         margin: 20px 0;
-        width: 141px;
+        width: 108px;
+        padding: 8px 20px;
         font-size: 14px;
     }
 }
@@ -69,11 +70,11 @@
         margin-top: 65px;
     }
 
-    .our-services__separator--main {
+    .our-services__separator-main {
         width: 56px;
     }
 
-    .our-services__separator--sub {
+    .our-services__separator-sub {
         width: 160px;
     }
 
@@ -89,21 +90,21 @@
         height: 450px;
     }
 
-    .our-services__content-item--logo {
+    .our-services__content-item-logo {
         width: 100px;
         margin: 0 auto 40px;
     }
 
-    .our-services__content-item--title {
+    .our-services__content-item-title {
         font-size: 18px;
     }
 
-    .our-services__content-item--subtitle {
+    .our-services__content-item-subtitle {
         max-width: 250px;
         font-size: 12px;
     }
 
-    .our-services__content-item--btn {
+    .our-services__content-item-btn {
         font-size: 15px;
         width: 122px;
     }
@@ -120,11 +121,11 @@
         margin-top: 65px;
     }
 
-    .feedback__separator--main {
+    .feedback__separator-main {
         width: 56px;
     }
 
-    .feedback__separator--sub {
+    .feedback__separator-sub {
         width: 160px;
     }
 
@@ -137,7 +138,7 @@
         margin-top: 65px;
     }
 
-    .feedback__sliders--wrapper {
+    .feedback__sliders-wrapper {
         width: 200px;
     }
 
@@ -145,12 +146,12 @@
         margin-left: 5%;
     }
 
-    .feedback__sliders--title {
+    .feedback__sliders-title {
         width: 200px;
         font-size: 16px;
     }
 
-    .feedback__sliders--carousel {
+    .feedback__sliders-carousel {
         width: 170px;
         margin: 22px auto 0;
     }
@@ -160,11 +161,11 @@
         width: 64%;
     }
 
-    .feedback__photo-second-man {
+    .feedback__photo:last-child {
         display: none;
     }
 
-    .feedback__photo--content {
+    .feedback__photo {
         font-size: 11px;
     }
 }
@@ -180,11 +181,11 @@
         margin-top: 65px;
     }
 
-    .clients__separator--main {
+    .clients__separator-main {
         width: 56px;
     }
 
-    .clients__separator--sub {
+    .clients__separator-sub {
         width: 160px;
     }
 
@@ -204,7 +205,7 @@
         background: #fbfbfb;
     }
 
-    .clients__content--wrapper {
+    .clients__content-wrapper {
         margin: 16px auto 0;
         height: 250px;
         background: #ffffff;
@@ -285,24 +286,24 @@
         margin: 50px 0 0;
     }
 
-    .queries__get-call--text {
+    .queries__get-call-text {
         width: 130px;
         height: 34px;
         padding-left: 12px;
     }
 
-    .queries__get-call--number {
+    .queries__get-call-number {
         width: 130px;
         height: 34px;
         padding-left: 12px;
     }
 
-    .queries__get-call--text::placeholder,
-    .queries__get-call--number::placeholder {
+    .queries__get-call-text::placeholder,
+    .queries__get-call-number::placeholder {
         font-size: 9px;
     }
 
-    .queries__get-call--btn {
+    .queries__get-call-btn {
         width: 80px;
         height: 38px;
         padding-top: 4px;
@@ -342,22 +343,21 @@
         width: 230px;
     }
 
-    .footer__subscribe--text{
+    .footer__subscribe-text{
         width: 107px;
         height: 34px;
         margin-left: 30px;
         padding-left: 11px;
     }
 
-    .footer__subscribe--text::placeholder {
+    .footer__subscribe-text::placeholder {
         font-size: 11px;
     }
 
-    .footer__subscribe--btn {
+    .footer__subscribe-btn {
         height: 36px;
         width: 99px;
         font-size: 11px;
     }
-
 
 }

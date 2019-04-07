@@ -9,7 +9,7 @@
 /*FEEDBACK*/
 
 @media only screen and (max-width: 999px) {
-    .feedback__content--wrapper {
+    .feedback__content-wrapper {
         width: 940px;
     }
 }
