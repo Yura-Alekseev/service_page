@@ -16,7 +16,12 @@
     display: flex;
     flex-direction: row;
     height: 60px;
-    border-bottom: 1px solid #6e658a;
+}
+
+.header__separator {
+    width: 100%;
+    height: 1px;
+    background: #6e658a;
 }
 
 .header__logo {
@@ -46,7 +51,6 @@
 .header__dropdown {
     display: none;
 }
-
 
 .header__navigation-item {
     display: flex;
