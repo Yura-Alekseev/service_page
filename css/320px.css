@@ -48,9 +48,6 @@
         z-index: 1;
     }
 
-    /*test*/
-
-
     .header__dropdown-content-focused {
         display: flex;
         flex-direction: column;
